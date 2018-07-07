@@ -1,0 +1,65 @@
+:root{
+
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.list1 {
+   display: inline-block;
+}
+
+.menu1{
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 1vw 2vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.menu{
+    visibility: hidden;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+.menu button{
+
+   
+    font-size: 1rem;
+    border-radius: 30px;
+    border:5px white;
+}
+
+
+
+
+@media screen and (max-width:600px)
+{
+
+    .menu{
+    visibility: visible;
+    background-color: orange;
+    text-align: center;
+}
+
+
+.res{
+    display:block;
+    text-align: left;
+}
+

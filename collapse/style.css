@@ -1,0 +1,38 @@
+:root{
+	font-size: 16px;
+}
+
+.container{
+	display: wrap;
+	flex-wrap: wrap;
+}
+
+.container1{
+	width: 100%;
+	height: auto;
+	background-color: grey;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+a{
+	line-height: 6rem;
+}
+p{
+	font-size: 1rem;
+	color:white;
+}
+.close{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%
+	height:100%;
+}
+
+.close p{
+	font-size: 2rem;
+color: white;
+text-align: center;
+}
